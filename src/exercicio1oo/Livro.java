@@ -1,8 +1,8 @@
 package exercicio1oo;
 
 public class Livro {
-    public String nome, autor;
-    public boolean disponivel = true;
+    private String nome, autor;
+    private boolean disponivel = true;
 
     public boolean isDisponivel() {
         return disponivel;
@@ -18,5 +18,23 @@ public class Livro {
         System.out.println("Livro Devolvido");
     }
 
+    public String getNome() {
+        return nome;
+    }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public void setDisponivel(boolean disponivel) {
+        this.disponivel = disponivel;
+    }
 }
