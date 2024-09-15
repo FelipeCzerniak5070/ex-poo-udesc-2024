@@ -1,1 +1,1 @@
-Alunos: Felipe Czerniak e Gabriel Machado
+Alunos: Felipe Czerniak, Gabriel Machado e Isadora Souza
