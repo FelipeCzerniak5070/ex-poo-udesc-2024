@@ -7,7 +7,7 @@ public class TesteCarro {
         c1.acelerar();
         c1.acelerar();
         c1.frear();
-        System.out.println("Velocidade: "+c1.consultarVelocidade());
+        System.out.println("Velocidade: "+c1.getVelocidade());
 
     }
 }

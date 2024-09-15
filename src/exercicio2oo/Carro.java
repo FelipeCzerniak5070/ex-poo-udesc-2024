@@ -1,8 +1,8 @@
 package exercicio2oo;
 
 public class Carro {
-    public String modelo;
-    public double velocidade=0;
+    private String modelo;
+    private double velocidade=0;
 
     public void acelerar(){
         velocidade+=10;
@@ -14,8 +14,19 @@ public class Carro {
         System.out.println("Freando");
     }
 
-    public double consultarVelocidade() {
+    public double getVelocidade() {
         return velocidade;
     }
 
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public void setVelocidade(double velocidade) {
+        this.velocidade = velocidade;
+    }
 }
